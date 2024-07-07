@@ -1,3 +1,4 @@
+import BreakingNews from "../../Pages/Shared Pages/BreakingNews/BreakingNews";
 import Header from "../../Pages/Shared Pages/Header/Header";
 import LeftSideNav from "../../Pages/Shared Pages/LeftSideNav/LeftSideNav";
 import Navbar from "../../Pages/Shared Pages/Navbar/Navbar";
@@ -8,8 +9,9 @@ const Home = () => {
     // console.log('object');
     return (
         <>
-            <div className="text-center">
+            <div>
                 <Header/>
+                <BreakingNews/>
                 <Navbar/>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4">
